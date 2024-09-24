@@ -7,3 +7,4 @@ I am a first-year PhD student in Engineering at the University of Cambridge, sup
 - Computer Science, Bs | University of California, San Diego (_Oct 2018_)
 
 ## Publications
+1. Guangyu Yang, Jinghong Chen, Weizhe Lin, and Bill Byrne Direct Preference Optimization for Neural Machine Translation with Minimum Bayes Risk Decoding (2023).
