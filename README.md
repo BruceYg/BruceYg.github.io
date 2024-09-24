@@ -11,3 +11,6 @@ My research interests include Multilingual Models, Neural Machine Translation, L
 ## Publications
 1. **Guangyu Yang**, Jinghong Chen, Weizhe Lin, and Bill Byrne [Direct Preference Optimization for Neural Machine Translation with Minimum Bayes Risk Decoding](https://aclanthology.org/2024.naacl-short.34/) (NAACL 2024).
 2. **Guangyu Yang** [Multilingual Models in Neural Machine Translation](https://www.mlmi.eng.cam.ac.uk/files/2022_-_2023_dissertations/multilingual_models_in_neural_machine_translation.pdf) (MPhil Thesis)
+
+## Work Experience
+**Machine Learning Engineer @ To0 Space (Sept 2023 - Present_)**
