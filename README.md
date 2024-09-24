@@ -6,7 +6,7 @@ My research interests include Multilingual Models, Neural Machine Translation, L
 ## Education
 - **Ph.D.**, Engineering,  University of Cambridge (_Oct 2024_)
 - **MPhil**, Machine Learning and Machine Intelligence,  University of Cambridge (_Oct 2022_)
-- **B.S.**, Computer Science/Cognitive Science,  UC San Diego (_Oct 2018_)
+- **B.S.**, Computer Science/Cognitive Science,  UC San Diego (_Oct 2018_), Cum Laude
 
 ## Publications
 1. **Guangyu Yang**, Jinghong Chen, Weizhe Lin, and Bill Byrne. [Direct Preference Optimization for Neural Machine Translation with Minimum Bayes Risk Decoding](https://aclanthology.org/2024.naacl-short.34/) (NAACL 2024).
@@ -14,4 +14,6 @@ My research interests include Multilingual Models, Neural Machine Translation, L
 
 ## Work Experience
 **Machine Learning Engineer @ To0 Space (_Sept 2023 - Present_)**
-Diffusion Models, Text-to-Image/Image-to-Image Generation, Retrieval Augmented Generation.
+- Fine-tuning Stable Diffusion (SD) model and Vision Transformer (ViT) for architecture rendering image.
+- Retrieval Augmented Generation (RAG) for architecture rendering.
+- Automatic labelling and captioning for architecture images with Vision Language Models (VLMs) and Large Language Models (LLMs).
