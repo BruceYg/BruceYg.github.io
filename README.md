@@ -1,5 +1,6 @@
 ## About Me
 I am a first-year PhD student in Engineering at the University of Cambridge, supervised by [Prof. Bill Byrne](https://sites.google.com/view/bill-byrne/home), and fully funded by the Cambridge International Scholarship from Cambridge Trust.
+
 My research interests include Multilingual Models, Neural Machine Translation, LLM Alignment, Minimum Bayes Risk Decoding, and Diffusion Models.
 
 ## Education
