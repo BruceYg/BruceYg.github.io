@@ -4,7 +4,7 @@ I am a first-year PhD student in Engineering at the University of Cambridge, sup
 My research interests include Multilingual Models, Neural Machine Translation, LLM Alignment, Minimum Bayes Risk Decoding, and Diffusion Models.
 
 ## Education
-- Ph.D.
+- Ph.D. Engineering
 - MPhil, Machine Learning and Machine Intelligence | University of Cambridge (_Oct 2022_)
 - B.S., Computer Science/Cognitive Science | University of California, San Diego (_Oct 2018_)
 
