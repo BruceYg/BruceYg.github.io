@@ -6,7 +6,7 @@ I hold an M.Phil degree in Machine Learning and Machine Intelligence from the Un
 My research interests include Multilingual Models, Neural Machine Translation, LLM Alignment, Minimum Bayes Risk Decoding, and Diffusion Models.
 
 ## Education
-- **Ph.D**, Engineering,  University of Cambridge (_Oct 2024_-)
+- **Ph.D**, Engineering,  University of Cambridge (_Oct 2024 - Present_)
 - **M.Phil**, Machine Learning and Machine Intelligence,  University of Cambridge (_Oct 2022_-_Aug 2023_)
 - **B.S**, Computer Science/Cognitive Science,  UC San Diego (_Oct 2018_-_Jun 2022_), *Cum Laude*
 
@@ -16,7 +16,7 @@ My research interests include Multilingual Models, Neural Machine Translation, L
 3. **Guangyu Yang**. [Multilingual Models in Neural Machine Translation](https://www.mlmi.eng.cam.ac.uk/files/2022_-_2023_dissertations/multilingual_models_in_neural_machine_translation.pdf) (MPhil Thesis).
 
 ## Working Experience
-**Machine Learning Engineer @ To0 Space (_Sept 2023 - Present_)**
+**Machine Learning Engineer @ To0 Space (_Sep 2023 - Sep 2024_)**
 - Fine-tuning Stable Diffusion (SD) model and Vision Transformer (ViT) for architecture rendering image.
 - Retrieval Augmented Generation (RAG) for architecture rendering.
 - Automatic labelling and captioning for architecture images with Vision Language Models (VLMs) and Large Language Models (LLMs).
