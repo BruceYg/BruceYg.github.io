@@ -3,7 +3,7 @@ I am a first-year PhD student in Engineering at the University of Cambridge, sup
 
 I hold an M.Phil degree in Machine Learning and Machine Intelligence from the University of Cambridge, where I specialized in speech and language processing and supervised by Prof. Byrne. I obtained my B.S degree from the University of California, San Diego with double majors in Computer Science and Cognitive Science, where I was a member of the Caledonian Honor Society at Muir College and graduated Cum Laude.
 
-My research interests include Multilingual Models, Neural Machine Translation, LLM Alignment, Minimum Bayes Risk Decoding, and Diffusion Models.
+My research interests include Multilingual Models, Neural Machine Translation, LLM Alignment, Retrieval Augmented Generation, and Minimum Bayes Risk Decoding.
 
 ## Education
 - **Ph.D**, Engineering,  University of Cambridge (_Oct 2024 - Present_)
