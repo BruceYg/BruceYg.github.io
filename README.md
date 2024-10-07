@@ -1,7 +1,7 @@
 ## About Me
 I am a first-year PhD student in Engineering at the University of Cambridge, supervised by [Prof. Bill Byrne](https://sites.google.com/view/bill-byrne/home). I am fully funded by the Cambridge International Scholarship from Cambridge Trust. Prior to this, I worked as a Machine Learning Engineer at To0 Space, a start-up focused on generating architectural rendering images using diffusion models.
 
-I hold an M.Phil degree in Machine Learning and Machine Intelligence from the University of Cambridge, where I specialized in speech and language processing and supervised by Prof. Byrne. I obtained my B.S degree from the University of California, San Diego with double majors in Computer Science and Cognitive Science, where I was a member of the Caledonian Honor Society at Muir College and graduated Cum Laude.
+I hold an M.Phil degree in Machine Learning and Machine Intelligence from the University of Cambridge, where I specialized in speech and language processing and supervised by Prof. Byrne. I obtained my B.S degree from the University of California, San Diego with double majors in Computer Science and Cognitive Science, where I was a member of the Caledonian Honors Society at Muir College and graduated Cum Laude.
 
 My research interests include Multilingual Models, Neural Machine Translation, LLM Alignment, Retrieval Augmented Generation, and Minimum Bayes Risk Decoding.
 
