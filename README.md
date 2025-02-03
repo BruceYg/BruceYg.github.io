@@ -5,7 +5,7 @@ I hold an M.Phil degree in Machine Learning and Machine Intelligence from the Un
 
 I obtained my B.S degree from the University of California, San Diego with double majors in Computer Science and Cognitive Science and minor in Mathematics, where I was a member of the Caledonian Honors Society at Muir College and graduated Cum Laude.
 
-My research interests include Multilingual Models, Neural Machine Translation, LLM Alignment, Retrieval Augmented Generation, and Minimum Bayes Risk Decoding.
+My research interests include LLM Jailbreak, Multilingual Models, Neural Machine Translation, LLM Alignment, Retrieval Augmented Generation, and Minimum Bayes Risk Decoding.
 
 ## Education
 - **Ph.D**, Engineering,  University of Cambridge (_Oct 2024 - Present_)
