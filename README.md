@@ -12,7 +12,8 @@ My research interests include LLM Jailbreak, Multilingual Models, Neural Machine
 - **M.Phil**, Machine Learning and Machine Intelligence,  University of Cambridge (_Oct 2022_-_Aug 2023_)
 - **B.S**, Computer Science/Cognitive Science,  UC San Diego (_Oct 2018_-_Jun 2022_), *Cum Laude*
 
-## Publications
+## Publications ([Google Scholar](https://scholar.google.com/citations?user=1nJlC9AAAAAJ&hl=en))
+1. Jingbiao Mei, Jinghong Chen, **Guangyu Yang**, Weizhe Lin, and Bill Byrne. [Improved Fine-Tuning of Large Multimodal Models for Hateful Meme Detection](https://arxiv.org/abs/2502.13061) (ArXiv Preprint).
 1. Jinghong Chen, **Guangyu Yang**, Weizhe Lin, Jingbiao Mei, and Bill Byrne. [On Extending Direct Preference Optimization to Accommodate Ties](https://arxiv.org/abs/2409.17431) (ArXiv Preprint).
 2. **Guangyu Yang**, Jinghong Chen, Weizhe Lin, and Bill Byrne. [Direct Preference Optimization for Neural Machine Translation with Minimum Bayes Risk Decoding](https://aclanthology.org/2024.naacl-short.34/) (NAACL 2024).
 3. **Guangyu Yang**. [Multilingual Models in Neural Machine Translation](https://www.mlmi.eng.cam.ac.uk/files/2022_-_2023_dissertations/multilingual_models_in_neural_machine_translation.pdf) (MPhil Thesis).
