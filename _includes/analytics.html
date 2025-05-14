@@ -1,4 +1,5 @@
-<!-- Google tag (gtag.js) -->
+{% raw %}{% if jekyll.environment == "production" %}
+<!-- Google Analytics 4 -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-5ZJJ8L7YYP"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -7,3 +8,4 @@
 
   gtag('config', 'G-5ZJJ8L7YYP');
 </script>
+{% endif %}{% endraw %}
