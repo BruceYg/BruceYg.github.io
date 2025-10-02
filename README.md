@@ -1,5 +1,5 @@
 ## About Me
-I am a first-year PhD student in Information Engineering at the University of Cambridge, supervised by [Prof. Bill Byrne](https://sites.google.com/view/bill-byrne/home). I am fully funded by the Cambridge International Scholarship from Cambridge Trust. Prior to this, I worked as a Machine Learning Engineer at To0 Space, a start-up focused on generating architectural rendering images using diffusion models.
+I am a second-year PhD student in Information Engineering at the University of Cambridge, working in the Machine Intelligence Lab under the supervission of [Prof. Bill Byrne](https://sites.google.com/view/bill-byrne/home). I am fully funded by the Cambridge International Scholarship from Cambridge Trust. Prior to this, I worked as a Machine Learning Engineer at To0 Space, a start-up developing diffusion-based models for high-fidelity architectural rendering.
 
 I hold an M.Phil degree in Machine Learning and Machine Intelligence from the University of Cambridge, where I specialized in speech and language processing and supervised by Prof. Byrne.
 
