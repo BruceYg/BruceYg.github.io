@@ -13,12 +13,13 @@ My research interests include LLM/VLM Safety, LLM Alignment, Retrieval Augmented
 - **B.S**, Computer Science/Cognitive Science,  UC San Diego (_Oct 2018_-_Jun 2022_), *Cum Laude*
 
 ## Publications ([Google Scholar](https://scholar.google.com/citations?user=1nJlC9AAAAAJ&hl=en))
-1. Chenyang Ma, **Guangyu Yang**, Kai Lu, Shitong Xu, Bill Byrne, Niki Trigoni, and Andrew Markham. [CycleVLA: Proactive Self-Correcting Vision-Language-Action Models via Subtask Backtracking and Minimum Bayes Risk Decoding](https://arxiv.org/abs/2601.02295) (ArXiv Preprint).
-2. **Guangyu Yang**, Jinghong Chen, Jingbiao Mei, Weizhe Lin, and Bill Byrne. [Retrieval-Augmented Defense: Adaptive and Controllable Jailbreak Prevention for Large Language Models](https://www.arxiv.org/abs/2508.16406) (ArXiv Preprint).
-3. Jingbiao Mei, Jinghong Chen, **Guangyu Yang**, Weizhe Lin, and Bill Byrne. [Robust Adaptation of Large Multimodal Models for Retrieval Augmented Hateful Meme Detection](https://arxiv.org/abs/2502.13061) (EMNLP 2025 Oral).
-4. Jinghong Chen, **Guangyu Yang**, Weizhe Lin, Jingbiao Mei, and Bill Byrne. [On Extending Direct Preference Optimization to Accommodate Ties](https://arxiv.org/abs/2409.17431) (NeurIPS 2025).
-5. **Guangyu Yang**, Jinghong Chen, Weizhe Lin, and Bill Byrne. [Direct Preference Optimization for Neural Machine Translation with Minimum Bayes Risk Decoding](https://aclanthology.org/2024.naacl-short.34/) (NAACL 2024).
-6. **Guangyu Yang**. [Multilingual Models in Neural Machine Translation](https://www.mlmi.eng.cam.ac.uk/files/2022_-_2023_dissertations/multilingual_models_in_neural_machine_translation.pdf) (MPhil Thesis).
+1. Jingbiao Mei, Jinghong Chen, **Guangyu Yang**, Xinyu Hou, Margaret Li, and Bill Byrne. [According to Me: Long-Term Personalized Referential Memory QA](https://arxiv.org/pdf/2603.01990) (ArXiv Preprint).
+2. Chenyang Ma, **Guangyu Yang**, Kai Lu, Shitong Xu, Bill Byrne, Niki Trigoni, and Andrew Markham. [CycleVLA: Proactive Self-Correcting Vision-Language-Action Models via Subtask Backtracking and Minimum Bayes Risk Decoding](https://arxiv.org/abs/2601.02295) (ArXiv Preprint).
+3. **Guangyu Yang**, Jinghong Chen, Jingbiao Mei, Weizhe Lin, and Bill Byrne. [Retrieval-Augmented Defense: Adaptive and Controllable Jailbreak Prevention for Large Language Models](https://www.arxiv.org/abs/2508.16406) (ArXiv Preprint).
+4. Jingbiao Mei, Jinghong Chen, **Guangyu Yang**, Weizhe Lin, and Bill Byrne. [Robust Adaptation of Large Multimodal Models for Retrieval Augmented Hateful Meme Detection](https://arxiv.org/abs/2502.13061) (EMNLP 2025 Oral).
+5. Jinghong Chen, **Guangyu Yang**, Weizhe Lin, Jingbiao Mei, and Bill Byrne. [On Extending Direct Preference Optimization to Accommodate Ties](https://arxiv.org/abs/2409.17431) (NeurIPS 2025).
+6. **Guangyu Yang**, Jinghong Chen, Weizhe Lin, and Bill Byrne. [Direct Preference Optimization for Neural Machine Translation with Minimum Bayes Risk Decoding](https://aclanthology.org/2024.naacl-short.34/) (NAACL 2024).
+7. **Guangyu Yang**. [Multilingual Models in Neural Machine Translation](https://www.mlmi.eng.cam.ac.uk/files/2022_-_2023_dissertations/multilingual_models_in_neural_machine_translation.pdf) (MPhil Thesis).
 
 ## Working Experience
 **Machine Learning Engineer @ To0 Space (_Sep 2023 - Sep 2024_)**
