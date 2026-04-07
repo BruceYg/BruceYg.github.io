@@ -28,5 +28,7 @@ My research interests include LLM/VLM Safety, LLM Alignment, Retrieval Augmented
 - Automatic labelling and captioning for architecture images with Vision Language Models (VLMs) and Large Language Models (LLMs).
 
 ## Teaching Experience
+**Teaching Assistant @ University of Cambridge**
+- MLMI 8. Large Language Model Applications
 **Instructional Assistant @ UC San Diego**
 - COGS 118A. Supervised Machine Learning Algorithms
