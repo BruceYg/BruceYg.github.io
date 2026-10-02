@@ -13,9 +13,9 @@ My research interests include LLM/VLM Safety, LLM Alignment, Retrieval Augmented
 - **B.S**, Computer Science/Cognitive Science,  UC San Diego (_Oct 2018_-_Jun 2022_), *Cum Laude*
 
 ## Publications ([Google Scholar](https://scholar.google.com/citations?user=1nJlC9AAAAAJ&hl=en))
-1. **Guangyu Yang**, Jingbiao Mei, Mingsheng Sun, Jinghong Chen, Yingtong Bu, Pengda Qin, Da Chen, Bill Byrne. [Controllable Multi-label Video Safety Detection via Adaptive Tversky Policy Optimization]().
+1. **Guangyu Yang**, Jingbiao Mei, Mingsheng Sun, Jinghong Chen, Yingtong Bu, Pengda Qin, Da Chen, Bill Byrne. [Controllable Multi-label Video Safety Detection via Adaptive Tversky Policy Optimization](https://arxiv.org/pdf/2610.02019). *NeurIPS 2026*.
 2. Jinghong Chen, Jingbiao Mei, **Guangyu Yang**, Bill Byrne. [BERAG: Bayesian Ensemble Retrieval-Augmented Generation for Knowledge-based Visual Question Answering](https://arxiv.org/pdf/2604.22678). ArXiv Preprint.
-3. Jingbiao Mei, Jinghong Chen, **Guangyu Yang**, Xinyu Hou, Margaret Li, and Bill Byrne. [According to Me: Long-Term Personalized Referential Memory QA](https://arxiv.org/pdf/2603.01990). ArXiv Preprint.
+3. Jingbiao Mei, Jinghong Chen, **Guangyu Yang**, Xinyu Hou, Margaret Li, and Bill Byrne. [According to Me: Long-Term Personalized Referential Memory QA](https://arxiv.org/pdf/2603.01990). PALM @ NeurIPS 2026.
 4. Chenyang Ma, **Guangyu Yang**, Kai Lu, Shitong Xu, Bill Byrne, Niki Trigoni, and Andrew Markham. [CycleVLA: Proactive Self-Correcting Vision-Language-Action Models via Subtask Backtracking and Minimum Bayes Risk Decoding](https://arxiv.org/abs/2601.02295). ArXiv Preprint.
 5. **Guangyu Yang**, Jinghong Chen, Jingbiao Mei, Weizhe Lin, and Bill Byrne. [Retrieval-Augmented Defense: Adaptive and Controllable Jailbreak Prevention for Large Language Models](https://www.arxiv.org/abs/2508.16406). *ACL 2026 (Main)*.
 6. Jingbiao Mei, Jinghong Chen, **Guangyu Yang**, Weizhe Lin, and Bill Byrne. [Robust Adaptation of Large Multimodal Models for Retrieval Augmented Hateful Meme Detection](https://arxiv.org/abs/2502.13061). *EMNLP 2025 (Main, Oral)*.
