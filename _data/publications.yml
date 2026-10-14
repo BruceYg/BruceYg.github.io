@@ -1,0 +1,187 @@
+- id: atpo
+  title: Controllable Multi-label Video Safety Detection via Adaptive Tversky Policy Optimization
+  authors:
+  - name: Guangyu Yang
+    equal_contribution: true
+  - name: Jingbiao Mei
+    equal_contribution: true
+  - name: Mingsheng Sun
+    equal_contribution: true
+  - name: Jinghong Chen
+  - name: Yingtong Bu
+  - name: Pengda Qin
+  - name: Da Chen
+    corresponding: true
+  - name: Bill Byrne
+    corresponding: true
+  venue: NeurIPS 2026
+  badge: NeurIPS
+  paper: https://arxiv.org/pdf/2610.02019
+  links:
+  - label: Paper
+    url: https://arxiv.org/pdf/2610.02019
+  - label: Project
+    url: https://bruceyg.github.io/ATPO-project-page/
+  - label: Code
+    url: https://github.com/BruceYg/ATPO
+  - label: Models
+    url: https://huggingface.co/collections/BruceYg/atpo
+  image: /assets/img/publications/atpo.webp
+  image_alt: ATPO teaser comparing fixed and controllable moderation policies.
+  image_width: 1200
+  image_height: 554
+  image_source: https://bruceyg.github.io/ATPO-project-page/assets/overview.webp
+  author_credit_source: https://arxiv.org/pdf/2610.02019v1
+- id: berag
+  title: 'BERAG: Bayesian Ensemble Retrieval-Augmented Generation for Knowledge-based Visual Question Answering'
+  authors:
+  - name: Jinghong Chen
+  - name: Jingbiao Mei
+  - name: Guangyu Yang
+  - name: Bill Byrne
+  venue: ArXiv Preprint
+  badge: Preprint
+  paper: https://arxiv.org/pdf/2604.22678
+  links:
+  - label: Paper
+    url: https://arxiv.org/pdf/2604.22678
+  author_credit_source: https://arxiv.org/pdf/2604.22678v1
+- id: atm
+  title: 'According to Me: Long-Term Personalized Referential Memory QA'
+  authors:
+  - name: Jingbiao Mei
+    corresponding: true
+  - name: Jinghong Chen
+  - name: Guangyu Yang
+  - name: Xinyu Hou
+  - name: Margaret Li
+  - name: Bill Byrne
+    corresponding: true
+  venue: PALM @ NeurIPS 2026
+  badge: Workshop
+  paper: https://arxiv.org/pdf/2603.01990
+  links:
+  - label: Paper
+    url: https://arxiv.org/pdf/2603.01990
+  - label: Code
+    url: https://github.com/JingbiaoMei/ATM-Bench
+  image: /assets/img/publications/atm.jpg
+  image_alt: ATM-Bench teaser showing personal reference grounding, memory updates, and location-aware memory questions.
+  image_width: 900
+  image_height: 456
+  image_source: https://arxiv.org/html/2603.01990v1/Diagram/ATM-Demo.png
+  author_credit_source: https://arxiv.org/pdf/2603.01990v1
+- id: cyclevla
+  title: 'CycleVLA: Proactive Self-Correcting Vision-Language-Action Models via Subtask Backtracking and Minimum
+    Bayes Risk Decoding'
+  authors:
+  - name: Chenyang Ma
+  - name: Kai Lu
+  - name: Guangyu Yang
+    corresponding: true
+  - name: Jiuming Liu
+  - name: Shitong Xu
+  - name: Bill Byrne
+  - name: Ioannis Havoutis
+  - name: Niki Trigoni
+  - name: Andrew Markham
+  venue: ArXiv Preprint
+  badge: Preprint
+  paper: https://arxiv.org/abs/2601.02295
+  links:
+  - label: Paper
+    url: https://arxiv.org/abs/2601.02295
+  - label: Project
+    url: https://dannymcy.github.io/cyclevla/
+  - label: Code
+    url: https://github.com/dannymcy/cyclevla_code
+  image: /assets/img/publications/cyclevla.jpg
+  image_alt: CycleVLA robot demonstrations showing failure prediction, backtracking, retry, and success.
+  image_width: 720
+  image_height: 516
+  image_source: https://dannymcy.github.io/assets/img/paper_teasers/cyclevla.png
+  author_credit_source: https://arxiv.org/pdf/2601.02295v2
+- id: rad
+  title: 'Retrieval-Augmented Defense: Adaptive and Controllable Jailbreak Prevention for Large Language Models'
+  authors:
+  - name: Guangyu Yang
+  - name: Jinghong Chen
+  - name: Jingbiao Mei
+  - name: Weizhe Lin
+  - name: Bill Byrne
+  venue: ACL 2026 (Main)
+  badge: ACL
+  paper: https://www.arxiv.org/abs/2508.16406
+  links:
+  - label: Paper
+    url: https://www.arxiv.org/abs/2508.16406
+  - label: Project
+    url: https://bruceyg.github.io/rad/
+  - label: Code
+    url: https://github.com/BruceYg/Retrieval-Augmented-Defense
+  image: /assets/img/publications/rad.png
+  image_alt: Retrieval-Augmented Defense pipeline overview.
+  image_width: 720
+  image_height: 340
+  image_source: https://bruceyg.github.io/rad/assets/rad-diagram.svg
+  author_credit_source: https://aclanthology.org/2026.acl-long.1895.pdf
+- id: rgcl
+  title: Robust Adaptation of Large Multimodal Models for Retrieval Augmented Hateful Meme Detection
+  authors:
+  - name: Jingbiao Mei
+  - name: Jinghong Chen
+  - name: Guangyu Yang
+  - name: Weizhe Lin
+  - name: Bill Byrne
+  venue: EMNLP 2025 (Main, Oral)
+  badge: EMNLP
+  paper: https://arxiv.org/abs/2502.13061
+  links:
+  - label: Paper
+    url: https://arxiv.org/abs/2502.13061
+  - label: Code
+    url: https://github.com/JingbiaoMei/RGCL
+  author_credit_source: https://aclanthology.org/2025.emnlp-main.1215.pdf
+- id: dpo-ties
+  title: On Extending Direct Preference Optimization to Accommodate Ties
+  authors:
+  - name: Jinghong Chen
+  - name: Guangyu Yang
+  - name: Weizhe Lin
+  - name: Jingbiao Mei
+  - name: Bill Byrne
+  venue: NeurIPS 2025
+  badge: NeurIPS
+  paper: https://arxiv.org/abs/2409.17431
+  links:
+  - label: Paper
+    url: https://arxiv.org/abs/2409.17431
+  - label: Code
+    url: https://github.com/EriChen0615/DPO-RKD
+  author_credit_source: https://proceedings.neurips.cc/paper_files/paper/2025/file/4dbf3488a8da908a8177d525ede1a43a-Paper-Conference.pdf
+- id: dpo-mbr
+  title: Direct Preference Optimization for Neural Machine Translation with Minimum Bayes Risk Decoding
+  authors:
+  - name: Guangyu Yang
+  - name: Jinghong Chen
+  - name: Weizhe Lin
+  - name: Bill Byrne
+  venue: NAACL 2024 (Main)
+  badge: NAACL
+  paper: https://aclanthology.org/2024.naacl-short.34/
+  links:
+  - label: Paper
+    url: https://aclanthology.org/2024.naacl-short.34/
+  - label: Code
+    url: https://github.com/BruceYg/DPO-MBR
+  author_credit_source: https://aclanthology.org/2024.naacl-short.34.pdf
+- id: thesis
+  title: Multilingual Models in Neural Machine Translation
+  authors:
+  - name: Guangyu Yang
+  venue: MPhil Thesis
+  badge: Thesis
+  paper: https://www.mlmi.eng.cam.ac.uk/files/2022_-_2023_dissertations/multilingual_models_in_neural_machine_translation.pdf
+  links:
+  - label: Paper
+    url: https://www.mlmi.eng.cam.ac.uk/files/2022_-_2023_dissertations/multilingual_models_in_neural_machine_translation.pdf

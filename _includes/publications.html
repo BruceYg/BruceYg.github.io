@@ -1,0 +1,40 @@
+<p class="publication-legend" id="publication-author-legend">
+  <span><span class="legend-mark" aria-hidden="true">*</span> Equal contribution</span>
+  <span class="legend-separator" aria-hidden="true">&middot;</span>
+  <span><span class="legend-mark" aria-hidden="true">&dagger;</span> Corresponding author</span>
+</p>
+<div class="publications-list">
+  {% for publication in site.data.publications %}
+  <article class="publication-card{% if publication.image %} has-thumbnail{% endif %}"
+           aria-labelledby="publication-{{ publication.id }}">
+    {% if publication.image %}
+    <div class="publication-visual">
+      <img class="publication-thumbnail" src="{{ publication.image | relative_url }}"
+           alt="{{ publication.image_alt | escape }}"
+           width="{{ publication.image_width }}" height="{{ publication.image_height }}"
+           loading="lazy" decoding="async">
+    </div>
+    {% endif %}
+    <div class="publication-details">
+      <h3 class="publication-title" id="publication-{{ publication.id }}">
+        <a href="{{ publication.paper | escape }}">{{ publication.title | escape }}</a>
+      </h3>
+      <p class="publication-authors">
+        {%- for author in publication.authors -%}
+        <span class="publication-author">{%- if author.name == site.title -%}<strong>{{ author.name | escape }}</strong>{%- else -%}{{ author.name | escape }}{%- endif -%}{%- if author.equal_contribution or author.corresponding -%}<sup class="author-mark" aria-hidden="true">{%- if author.equal_contribution -%}*{%- endif -%}{%- if author.equal_contribution and author.corresponding -%},{%- endif -%}{%- if author.corresponding -%}&dagger;{%- endif -%}</sup>{%- if author.equal_contribution -%}<span class="visually-hidden"> (equal contribution)</span>{%- endif -%}{%- if author.corresponding -%}<span class="visually-hidden"> (corresponding author)</span>{%- endif -%}{%- endif -%}</span>{%- unless forloop.last -%}, {% endunless %}
+        {%- endfor -%}
+      </p>
+      <div class="publication-venue">
+        <span class="venue-badge">{{ publication.badge | escape }}</span>
+        <span class="publication-venue-text">{{ publication.venue | escape }}</span>
+      </div>
+      <div class="publication-links">
+        {% for resource in publication.links %}
+        <a class="resource-link" href="{{ resource.url | escape }}"
+           aria-label="{{ resource.label | escape }}: {{ publication.title | escape }}">{{ resource.label | escape }}</a>
+        {% endfor %}
+      </div>
+    </div>
+  </article>
+  {% endfor %}
+</div>

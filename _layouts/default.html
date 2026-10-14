@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en-US' }}">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ page.title | default: site.title | escape }}{% if page.title and page.title != site.title %} | {{ site.title | escape }}{% endif %}</title>
+    {% seo title=false %}
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    {% include head-custom.html %}
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <div class="wrapper">
+      <header class="profile-header">
+        <div class="profile-top">
+          <div class="profile-identity">
+            <h1><a href="{{ '/' | relative_url }}">{{ site.title | escape }}</a></h1>
+            <p class="profile-role">{{ site.profile_role | escape }}<br>{{ site.affiliation | escape }}</p>
+            <div class="profile-links" aria-label="Contact and profiles">
+              {% if site.email %}
+              <a href="mailto:{{ site.email | escape }}">Email</a>
+              {% endif %}
+              {% if site.cv_url and site.cv_url != '' %}
+              <a href="{{ site.cv_url | relative_url }}">CV</a>
+              {% endif %}
+              {% if site.scholar_url %}
+              <a href="{{ site.scholar_url | escape }}">Google Scholar</a>
+              {% endif %}
+              {% if site.github_url %}
+              <a href="{{ site.github_url | escape }}">GitHub</a>
+              {% endif %}
+            </div>
+          </div>
+          {% if site.logo %}
+          <img class="profile-portrait" src="{{ site.logo | relative_url }}"
+               alt="Portrait of {{ site.title | escape }}"
+               width="{{ site.portrait_width }}" height="{{ site.portrait_height }}"
+               decoding="async">
+          {% endif %}
+        </div>
+        <nav class="site-nav" aria-label="On this page">
+          <a href="#publications-google-scholar">Research</a>
+          <a href="#working-experience">Experience</a>
+          {% if site.email %}
+          <a href="mailto:{{ site.email | escape }}">Contact</a>
+          {% endif %}
+        </nav>
+      </header>
+      <main id="main-content" tabindex="-1">
+        {{ content }}
+      </main>
+      <footer>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+  </body>
+</html>
