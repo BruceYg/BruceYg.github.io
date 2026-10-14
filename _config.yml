@@ -3,8 +3,7 @@ profile_role: PhD Student
 affiliation: University of Cambridge
 description: >-
   Guangyu Yang is a PhD student in Information Engineering at the University of
-  Cambridge, researching language and multimodal models, safety, alignment,
-  and retrieval-augmented generation.
+  Cambridge, researching the safety and alignment of language and multimodal models.
 url: "https://bruceyg.github.io"
 baseurl: ""
 logo: /assets/img/portrait.jpg

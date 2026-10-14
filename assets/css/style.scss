@@ -275,6 +275,10 @@ main .credential-details > li:last-child {
   margin-bottom: 0;
 }
 
+main .credential-details + .credential-role {
+  margin-top: 14px;
+}
+
 main .credential-note {
   margin: 5px 0 0;
   color: #667386;
@@ -413,6 +417,13 @@ main .publication-authors {
 
 .publication-venue-text {
   color: #596b82;
+}
+
+main .publication-summary {
+  margin: 0 0 12px;
+  color: #4e5e70;
+  font-size: 14px;
+  line-height: 1.65;
 }
 
 .publication-links {

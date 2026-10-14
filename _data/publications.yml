@@ -31,6 +31,10 @@
   image_width: 1200
   image_height: 554
   image_source: https://bruceyg.github.io/ATPO-project-page/assets/overview.webp
+  summary: >-
+    Trains video safety models to detect multiple harmful categories while allowing moderation
+    policies to adjust the balance between false alarms and missed detections.
+  summary_source: https://arxiv.org/pdf/2610.02019v1
   author_credit_source: https://arxiv.org/pdf/2610.02019v1
 - id: berag
   title: 'BERAG: Bayesian Ensemble Retrieval-Augmented Generation for Knowledge-based Visual Question Answering'
@@ -39,12 +43,16 @@
   - name: Jingbiao Mei
   - name: Guangyu Yang
   - name: Bill Byrne
-  venue: ArXiv Preprint
+  venue: arXiv preprint
   badge: Preprint
   paper: https://arxiv.org/pdf/2604.22678
   links:
   - label: Paper
     url: https://arxiv.org/pdf/2604.22678
+  summary: >-
+    Combines evidence from individually retrieved documents through Bayesian weighting, enabling
+    visual question answering with clearer source attribution and shorter contexts.
+  summary_source: https://arxiv.org/pdf/2604.22678v1
   author_credit_source: https://arxiv.org/pdf/2604.22678v1
 - id: atm
   title: 'According to Me: Long-Term Personalized Referential Memory QA'
@@ -70,6 +78,10 @@
   image_width: 900
   image_height: 456
   image_source: https://arxiv.org/html/2603.01990v1/Diagram/ATM-Demo.png
+  summary: >-
+    Introduces a benchmark and structured memory approach for assistants answering personal
+    questions across years of photos, videos, emails, and conflicting evidence.
+  summary_source: https://arxiv.org/pdf/2603.01990v1
   author_credit_source: https://arxiv.org/pdf/2603.01990v1
 - id: cyclevla
   title: 'CycleVLA: Proactive Self-Correcting Vision-Language-Action Models via Subtask Backtracking and Minimum
@@ -85,7 +97,7 @@
   - name: Ioannis Havoutis
   - name: Niki Trigoni
   - name: Andrew Markham
-  venue: ArXiv Preprint
+  venue: arXiv preprint
   badge: Preprint
   paper: https://arxiv.org/abs/2601.02295
   links:
@@ -100,6 +112,10 @@
   image_width: 720
   image_height: 516
   image_source: https://dannymcy.github.io/assets/img/paper_teasers/cyclevla.png
+  summary: >-
+    Enables robots to anticipate failures, backtrack to earlier subtasks, and select retry
+    actions using minimum Bayes risk decoding.
+  summary_source: https://arxiv.org/pdf/2601.02295v2
   author_credit_source: https://arxiv.org/pdf/2601.02295v2
 - id: rad
   title: 'Retrieval-Augmented Defense: Adaptive and Controllable Jailbreak Prevention for Large Language Models'
@@ -124,6 +140,10 @@
   image_width: 720
   image_height: 340
   image_source: https://bruceyg.github.io/rad/assets/rad-diagram.svg
+  summary: >-
+    Detects jailbreak attempts using retrieved attack examples, allowing defenses to incorporate
+    new attacks without retraining and adjust the balance between safety and usefulness.
+  summary_source: https://aclanthology.org/2026.acl-long.1895.pdf
   author_credit_source: https://aclanthology.org/2026.acl-long.1895.pdf
 - id: rgcl
   title: Robust Adaptation of Large Multimodal Models for Retrieval Augmented Hateful Meme Detection
@@ -141,6 +161,10 @@
     url: https://arxiv.org/abs/2502.13061
   - label: Code
     url: https://github.com/JingbiaoMei/RGCL
+  summary: >-
+    Combines retrieval and contrastive learning to adapt multimodal models for hateful meme
+    detection while retaining their broader image and language capabilities.
+  summary_source: https://aclanthology.org/2025.emnlp-main.1215.pdf
   author_credit_source: https://aclanthology.org/2025.emnlp-main.1215.pdf
 - id: dpo-ties
   title: On Extending Direct Preference Optimization to Accommodate Ties
@@ -158,6 +182,10 @@
     url: https://arxiv.org/abs/2409.17431
   - label: Code
     url: https://github.com/EriChen0615/DPO-RKD
+  summary: >-
+    Extends direct preference optimization to model ties between responses, allowing training to
+    use both clear preferences and equally rated examples.
+  summary_source: https://proceedings.neurips.cc/paper_files/paper/2025/file/4dbf3488a8da908a8177d525ede1a43a-Paper-Conference.pdf
   author_credit_source: https://proceedings.neurips.cc/paper_files/paper/2025/file/4dbf3488a8da908a8177d525ede1a43a-Paper-Conference.pdf
 - id: dpo-mbr
   title: Direct Preference Optimization for Neural Machine Translation with Minimum Bayes Risk Decoding
@@ -174,6 +202,10 @@
     url: https://aclanthology.org/2024.naacl-short.34/
   - label: Code
     url: https://github.com/BruceYg/DPO-MBR
+  summary: >-
+    Uses automatically ranked translations to train multilingual models with preference
+    optimization, improving translation quality without extra computation at translation time.
+  summary_source: https://aclanthology.org/2024.naacl-short.34.pdf
   author_credit_source: https://aclanthology.org/2024.naacl-short.34.pdf
 - id: thesis
   title: Multilingual Models in Neural Machine Translation

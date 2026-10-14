@@ -28,6 +28,9 @@
         <span class="venue-badge">{{ publication.badge | escape }}</span>
         <span class="publication-venue-text">{{ publication.venue | escape }}</span>
       </div>
+      {% if publication.summary %}
+      <p class="publication-summary">{{ publication.summary | escape }}</p>
+      {% endif %}
       <div class="publication-links">
         {% for resource in publication.links %}
         <a class="resource-link" href="{{ resource.url | escape }}"
