@@ -4,7 +4,12 @@
   <span><span class="legend-mark" aria-hidden="true">&dagger;</span> Corresponding author</span>
 </p>
 <div class="publications-list">
-  {% for publication in site.data.publications %}
+  {% assign publication_years = site.data.publications | group_by: 'year' | sort: 'name' | reverse %}
+  {% for year_group in publication_years %}
+  <div class="publication-year-group">
+    <h3 class="publication-year" id="publications-{{ year_group.name }}">{{ year_group.name }}</h3>
+    <div class="publication-year-list">
+  {% for publication in year_group.items %}
   <article class="publication-card{% if publication.image %} has-thumbnail{% endif %}"
            aria-labelledby="publication-{{ publication.id }}">
     {% if publication.image %}
@@ -16,17 +21,16 @@
     </div>
     {% endif %}
     <div class="publication-details">
-      <h3 class="publication-title" id="publication-{{ publication.id }}">
+      <h4 class="publication-title" id="publication-{{ publication.id }}">
         <a href="{{ publication.paper | escape }}">{{ publication.title | escape }}</a>
-      </h3>
+      </h4>
       <p class="publication-authors">
         {%- for author in publication.authors -%}
         <span class="publication-author">{%- if author.name == site.title -%}<strong>{{ author.name | escape }}</strong>{%- else -%}{{ author.name | escape }}{%- endif -%}{%- if author.equal_contribution or author.corresponding -%}<sup class="author-mark" aria-hidden="true">{%- if author.equal_contribution -%}*{%- endif -%}{%- if author.equal_contribution and author.corresponding -%},{%- endif -%}{%- if author.corresponding -%}&dagger;{%- endif -%}</sup>{%- if author.equal_contribution -%}<span class="visually-hidden"> (equal contribution)</span>{%- endif -%}{%- if author.corresponding -%}<span class="visually-hidden"> (corresponding author)</span>{%- endif -%}{%- endif -%}</span>{%- unless forloop.last -%}, {% endunless %}
         {%- endfor -%}
       </p>
       <div class="publication-venue">
-        <span class="venue-badge">{{ publication.badge | escape }}</span>
-        <span class="publication-venue-text">{{ publication.venue | escape }}</span>
+        <span class="venue-badge">{{ publication.venue | escape }}</span>
       </div>
       {% if publication.summary %}
       <p class="publication-summary">{{ publication.summary | escape }}</p>
@@ -39,5 +43,8 @@
       </div>
     </div>
   </article>
+  {% endfor %}
+    </div>
+  </div>
   {% endfor %}
 </div>

@@ -1,4 +1,5 @@
 - id: atpo
+  year: 2026
   title: Controllable Multi-label Video Safety Detection via Adaptive Tversky Policy Optimization
   authors:
   - name: Guangyu Yang
@@ -15,7 +16,6 @@
   - name: Bill Byrne
     corresponding: true
   venue: NeurIPS 2026
-  badge: NeurIPS
   paper: https://arxiv.org/pdf/2610.02019
   links:
   - label: Paper
@@ -37,6 +37,7 @@
   summary_source: https://arxiv.org/pdf/2610.02019v1
   author_credit_source: https://arxiv.org/pdf/2610.02019v1
 - id: berag
+  year: 2026
   title: 'BERAG: Bayesian Ensemble Retrieval-Augmented Generation for Knowledge-based Visual Question Answering'
   authors:
   - name: Jinghong Chen
@@ -44,7 +45,6 @@
   - name: Guangyu Yang
   - name: Bill Byrne
   venue: arXiv preprint
-  badge: Preprint
   paper: https://arxiv.org/pdf/2604.22678
   links:
   - label: Paper
@@ -55,6 +55,7 @@
   summary_source: https://arxiv.org/pdf/2604.22678v1
   author_credit_source: https://arxiv.org/pdf/2604.22678v1
 - id: atm
+  year: 2026
   title: 'According to Me: Long-Term Personalized Referential Memory QA'
   authors:
   - name: Jingbiao Mei
@@ -65,8 +66,7 @@
   - name: Margaret Li
   - name: Bill Byrne
     corresponding: true
-  venue: PALM @ NeurIPS 2026
-  badge: Workshop
+  venue: PALM @ NeurIPS 2026 (Workshop)
   paper: https://arxiv.org/pdf/2603.01990
   links:
   - label: Paper
@@ -84,6 +84,7 @@
   summary_source: https://arxiv.org/pdf/2603.01990v1
   author_credit_source: https://arxiv.org/pdf/2603.01990v1
 - id: cyclevla
+  year: 2026
   title: 'CycleVLA: Proactive Self-Correcting Vision-Language-Action Models via Subtask Backtracking and Minimum
     Bayes Risk Decoding'
   authors:
@@ -98,7 +99,6 @@
   - name: Niki Trigoni
   - name: Andrew Markham
   venue: arXiv preprint
-  badge: Preprint
   paper: https://arxiv.org/abs/2601.02295
   links:
   - label: Paper
@@ -118,6 +118,7 @@
   summary_source: https://arxiv.org/pdf/2601.02295v2
   author_credit_source: https://arxiv.org/pdf/2601.02295v2
 - id: rad
+  year: 2026
   title: 'Retrieval-Augmented Defense: Adaptive and Controllable Jailbreak Prevention for Large Language Models'
   authors:
   - name: Guangyu Yang
@@ -126,7 +127,6 @@
   - name: Weizhe Lin
   - name: Bill Byrne
   venue: ACL 2026 (Main)
-  badge: ACL
   paper: https://www.arxiv.org/abs/2508.16406
   links:
   - label: Paper
@@ -146,6 +146,7 @@
   summary_source: https://aclanthology.org/2026.acl-long.1895.pdf
   author_credit_source: https://aclanthology.org/2026.acl-long.1895.pdf
 - id: rgcl
+  year: 2025
   title: Robust Adaptation of Large Multimodal Models for Retrieval Augmented Hateful Meme Detection
   authors:
   - name: Jingbiao Mei
@@ -154,19 +155,24 @@
   - name: Weizhe Lin
   - name: Bill Byrne
   venue: EMNLP 2025 (Main, Oral)
-  badge: EMNLP
   paper: https://arxiv.org/abs/2502.13061
   links:
   - label: Paper
     url: https://arxiv.org/abs/2502.13061
   - label: Code
     url: https://github.com/JingbiaoMei/RGCL
+  image: /assets/img/publications/rgcl.png
+  image_alt: RA-HMD system diagram showing the multimodal backbone, contrastive training, and retrieval-augmented KNN classification.
+  image_width: 1200
+  image_height: 488
+  image_source: https://arxiv.org/html/2502.13061v4/Figs/RA-HMD-Crop.png
   summary: >-
     Combines retrieval and contrastive learning to adapt multimodal models for hateful meme
     detection while retaining their broader image and language capabilities.
   summary_source: https://aclanthology.org/2025.emnlp-main.1215.pdf
   author_credit_source: https://aclanthology.org/2025.emnlp-main.1215.pdf
 - id: dpo-ties
+  year: 2025
   title: On Extending Direct Preference Optimization to Accommodate Ties
   authors:
   - name: Jinghong Chen
@@ -175,7 +181,6 @@
   - name: Jingbiao Mei
   - name: Bill Byrne
   venue: NeurIPS 2025
-  badge: NeurIPS
   paper: https://arxiv.org/abs/2409.17431
   links:
   - label: Paper
@@ -188,6 +193,7 @@
   summary_source: https://proceedings.neurips.cc/paper_files/paper/2025/file/4dbf3488a8da908a8177d525ede1a43a-Paper-Conference.pdf
   author_credit_source: https://proceedings.neurips.cc/paper_files/paper/2025/file/4dbf3488a8da908a8177d525ede1a43a-Paper-Conference.pdf
 - id: dpo-mbr
+  year: 2024
   title: Direct Preference Optimization for Neural Machine Translation with Minimum Bayes Risk Decoding
   authors:
   - name: Guangyu Yang
@@ -195,7 +201,6 @@
   - name: Weizhe Lin
   - name: Bill Byrne
   venue: NAACL 2024 (Main)
-  badge: NAACL
   paper: https://aclanthology.org/2024.naacl-short.34/
   links:
   - label: Paper
@@ -208,11 +213,11 @@
   summary_source: https://aclanthology.org/2024.naacl-short.34.pdf
   author_credit_source: https://aclanthology.org/2024.naacl-short.34.pdf
 - id: thesis
+  year: 2023
   title: Multilingual Models in Neural Machine Translation
   authors:
   - name: Guangyu Yang
   venue: MPhil Thesis
-  badge: Thesis
   paper: https://www.mlmi.eng.cam.ac.uk/files/2022_-_2023_dissertations/multilingual_models_in_neural_machine_translation.pdf
   links:
   - label: Paper

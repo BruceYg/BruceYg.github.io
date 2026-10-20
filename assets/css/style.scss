@@ -134,7 +134,7 @@ header.profile-header {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 6px 16px;
+  gap: 6px;
   margin-top: 22px;
   padding-top: 16px;
   border-top: 1px solid #e5e5e5;
@@ -275,7 +275,8 @@ main .credential-details > li:last-child {
   margin-bottom: 0;
 }
 
-main .credential-details + .credential-role {
+main .credential-details + .credential-role,
+main .credential-details + .teaching-role-heading {
   margin-top: 14px;
 }
 
@@ -325,6 +326,18 @@ main .credential-note {
 
 .publications-list {
   margin: 0 0 28px;
+}
+
+.publication-year-group + .publication-year-group {
+  margin-top: 32px;
+}
+
+.publication-year {
+  margin: 0 0 18px;
+  color: #596b82;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.4;
 }
 
 .publication-card {
@@ -413,10 +426,6 @@ main .publication-authors {
   font-size: 12px;
   font-weight: 600;
   line-height: 1.5;
-}
-
-.publication-venue-text {
-  color: #596b82;
 }
 
 main .publication-summary {
