@@ -12,8 +12,8 @@ portrait_height: 800
 email: gy266@cam.ac.uk
 scholar_url: "https://scholar.google.com/citations?user=1nJlC9AAAAAJ&hl=en"
 github_url: "https://github.com/BruceYg"
-# Add a PDF at assets/files/CV.pdf, then set cv_url: /assets/files/CV.pdf
-cv_url:
+# Replace assets/files/CV.pdf when updating the CV; keep this URL unchanged.
+cv_url: /assets/files/CV.pdf
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
   - jekyll-remote-theme
