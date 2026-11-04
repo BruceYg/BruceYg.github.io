@@ -49,6 +49,13 @@
   links:
   - label: Paper
     url: https://arxiv.org/pdf/2604.22678
+  - label: Project
+    url: https://erichen0615.github.io/BERAG-project-page/
+  image: /assets/img/publications/berag.webp
+  image_alt: BERAG overview showing document-prior initialization, posterior-weighted token decoding, and recursive Bayesian weight updates.
+  image_width: 1200
+  image_height: 675
+  image_source: https://erichen0615.github.io/BERAG-project-page/static/images/berag-overview.webp
   summary: >-
     Combines evidence from individually retrieved documents through Bayesian weighting, enabling
     visual question answering with clearer source attribution and shorter contexts.
